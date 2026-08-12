@@ -527,7 +527,7 @@ msgid ""
 "view is enabled by default."
 msgstr ""
 "فعِّل عرض الرسم البياني الشعلي من الأسفل للأعلى. عند إلغاء تحديده، يُفَعَّل العرض "
-"من الأعلى للأسفل مبدئياً."
+"من الأعلى للأسفل مبدئيًا."
 
 #: gui/flamegraph.cpp:472
 #, kde-format
@@ -646,9 +646,9 @@ msgid ""
 "application.  These are then always applied when analyzing the data, unless "
 "this feature is explicitly disabled using this command line option."
 msgstr ""
-"تجاهَل تعاريف الحجب المضمنة في ملف بيانات heaptrack. مبدئياً، ينسخ heaptrack "
-"عمليات الحجب المعرّفة اختيارياً عبر وسم `const char "
-"*__lsan_default_suppressions()` في تطبيق التنقيح. تطبق هذه دائماً عند تحليل "
+"تجاهَل تعاريف الحجب المضمنة في ملف بيانات heaptrack. مبدئيًا، ينسخ heaptrack "
+"عمليات الحجب المعرّفة اختياريًا عبر وسم `const char "
+"*__lsan_default_suppressions()` في تطبيق التنقيح. تطبق هذه دائمًا عند تحليل "
 "البيانات، ما لم يُعطّل هذه الميزة صراحة باستخدام خيار سطر الأوامر هذا."
 
 #: gui/gui.cpp:98
@@ -657,7 +657,7 @@ msgid ""
 "Ignore suppression definitions that are built into heaptrack. By default, "
 "heaptrack will suppress certain known leaks in common system libraries."
 msgstr ""
-"تجاهَل تعاريف الحجب المضمنة في heaptrack. مبدئياً، يحجب heaptrack بعض التسرّبات "
+"تجاهَل تعاريف الحجب المضمنة في heaptrack. مبدئيًا، يحجب heaptrack بعض التسرّبات "
 "المعروفة في مكتبات النظام الشائعة."
 
 #: gui/gui.cpp:101
@@ -811,7 +811,7 @@ msgid ""
 "Ignore suppression definitions that are built into heaptrack. By default, "
 "heaptrack will suppress certain known leaks from common system libraries."
 msgstr ""
-"تجاهَل تعاريف الحجب المضمنة في heaptrack. مبدئياً، يحجب heaptrack بعض التسرّبات "
+"تجاهَل تعاريف الحجب المضمنة في heaptrack. مبدئيًا، يحجب heaptrack بعض التسرّبات "
 "المعروفة في مكتبات النظام الشائعة."
 
 #: gui/mainwindow.cpp:661
@@ -914,7 +914,7 @@ msgstr ""
 "<tt>heaptrack.$APP.$PID.gz</tt> أو <tt>heaptrack.$APP.$PID.zst</tt>. اِنتِجْ "
 "مثل هذا الملف عن طريق تشكيل تطبيقك، على سبيل المثال عبر:</p>\n"
 "<pre><code>heaptrack &lt;تطبيقك&gt; ...</code></pre>\n"
-"<p>أو، بدلاً من ذلك، اِرفِقْ عملية قيد التشغيل عبر</p>\n"
+"<p>أو، بدلًا من ذلك، اِرفِقْ عملية قيد التشغيل عبر</p>\n"
 "<pre><code>heaptrack --pid $(pidof &lt;تطبيقك&gt;)</code></pre></qt>"
 
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, openFile)
@@ -932,7 +932,7 @@ msgid ""
 "If set, this file will be used as a base and its cost gets subtracted from "
 "the primary data costs.</qt>"
 msgstr ""
-"<qt>يمكنك اختيارياً تحديد ملف بيانات heaptrack ثانٍ للمقارنة به. إذا ضُبِطَ، "
+"<qt>يمكنك اختياريًا تحديد ملف بيانات heaptrack ثانٍ للمقارنة به. إذا ضُبِطَ، "
 "يُستخدَم هذا الملف كأساس وتُطْرَح تكلفته من تكاليف البيانات الأساسية.</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, openFileLabel)
@@ -1268,7 +1268,7 @@ msgstr[0] "اُستدعيت من موقع واحد"
 msgstr[1] "اُستدعيت من موقع واحد"
 msgstr[2] "اُستدعيت من موقعين"
 msgstr[3] "اُستدعيت من %1 مواقع"
-msgstr[4] "اُستدعيت من %1 موقعاً"
+msgstr[4] "اُستدعيت من %1 موقعًا"
 msgstr[5] "اُستدعيت من %1 موقع"
 
 #: gui/util.cpp:32
