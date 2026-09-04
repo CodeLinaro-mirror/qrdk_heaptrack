@@ -117,8 +117,8 @@ msgid ""
 "directly at this location. This takes deallocations into account.</qt>"
 msgstr ""
 "<qt>La memòria en monticles màxima en bytes consumida de les assignacions "
-"originades directament en esta ubicació. Açò té en compte les assignacions "
-"que s'han tret.</qt>"
+"originades directament en esta ubicació. Açò té en compte les "
+"desassignacions.</qt>"
 
 #: gui/callercalleemodel.cpp:78 gui/callercalleemodel.h:371
 #, kde-format
@@ -160,8 +160,8 @@ msgid ""
 "deallocations into account.</qt>"
 msgstr ""
 "<qt>La memòria en monticles màxima inclusiva en bytes consumida de les "
-"assignacions originades en esta ubicació. Açò té en compte les assignacions "
-"que s'han tret.</qt>"
+"assignacions originades en esta ubicació. Açò té en compte les "
+"desassignacions.</qt>"
 
 #: gui/callercalleemodel.cpp:94 gui/callercalleemodel.h:178
 #: gui/callercalleemodel.h:387 gui/treemodel.cpp:91
@@ -417,9 +417,8 @@ msgid ""
 msgstr ""
 "<qt>Mostra el nombre d'assignacions temporals de memòria al llarg del temps. "
 "Una assignació temporal és aquella que seguix immediatament la seua "
-"assignació que s'ha tret corresponent, sense cap altra assignació entremig."
-"<br>Cliqueu i arrossegueu per a seleccionar un interval de temps per al "
-"filtratge.</qt>"
+"desassignació corresponent, sense cap altra assignació entremig.<br>Cliqueu "
+"i arrossegueu per a seleccionar un interval de temps per al filtratge.</qt>"
 
 #: gui/chartwidget.cpp:471
 #, kde-format
@@ -551,8 +550,7 @@ msgid ""
 msgstr ""
 "Mostra un gràfic de flames sobre el nombre d'assignacions temporals "
 "desencadenades per funcions en el codi. Les assignacions es marquen com a "
-"temporals quan estan seguides immediatament per la seua assignació que s'ha "
-"tret."
+"temporals quan estan seguides immediatament per la seua desassignació."
 
 #: gui/flamegraph.cpp:452
 #, kde-format
@@ -1274,8 +1272,7 @@ msgid ""
 "consumption in bytes. This takes deallocations into account.</qt>"
 msgstr ""
 "<qt>Les contribucions des d'una ubicació donada al consum en bytes de la "
-"memòria en monticles màxima. Açò té en compte les assignacions que s'han "
-"tret.</qt>"
+"memòria en monticles màxima. Açò té en compte les desassignacions.</qt>"
 
 #: gui/treemodel.cpp:94
 #, kde-format
