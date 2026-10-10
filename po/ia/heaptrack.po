@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: heaptrack\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-10 00:47+0000\n"
-"PO-Revision-Date: 2026-04-24 11:46+0200\n"
+"PO-Revision-Date: 2026-10-09 12:05+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -717,7 +717,7 @@ msgstr ""
 #: gui/mainwindow.cpp:453
 #, kde-format
 msgid "Failed to parse file %1."
-msgstr "Falleva a analyusar file: %1."
+msgstr "Falleva a analysar file: %1."
 
 #: gui/mainwindow.cpp:458
 #, kde-format
@@ -828,7 +828,7 @@ msgstr ""
 #: gui/mainwindow.cpp:857
 #, kde-format
 msgid "Failed to parse command: %1"
-msgstr "Falleva a analyusar commando: %1."
+msgstr "Falleva a analysar commando: %1."
 
 #: gui/mainwindow.cpp:871
 #, kde-format
